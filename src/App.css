@@ -42,20 +42,15 @@
 }
 
 .generated-html {
-  /* Добавляем стили для блока с HTML */
   margin-top: 20px;
   padding: 10px;
   border: 1px solid #ddd;
   background-color: #f9f9f9;
   overflow: auto;
-  /* Добавляем скролл, если код слишком длинный */
 }
 
 .generated-html pre {
   white-space: pre-wrap;
-  /* Сохраняем переводы строк и пробелы */
   font-family: monospace;
-  /* Используем моноширинный шрифт */
   margin: 0;
-  /* Убираем отступы <pre> по умолчанию */
 }
