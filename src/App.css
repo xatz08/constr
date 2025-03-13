@@ -1,0 +1,61 @@
+.app-container {
+  display: flex;
+  font-family: sans-serif;
+}
+
+.toolbox {
+  width: 200px;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+}
+
+.main-area {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+}
+
+.page-editor {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #eee;
+}
+
+.page-preview {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #eee;
+  margin-top: 10px;
+}
+
+.editor-element {
+  margin-bottom: 10px;
+}
+
+.editor-element textarea,
+.editor-element input[type="text"] {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.generated-html {
+  /* Добавляем стили для блока с HTML */
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  overflow: auto;
+  /* Добавляем скролл, если код слишком длинный */
+}
+
+.generated-html pre {
+  white-space: pre-wrap;
+  /* Сохраняем переводы строк и пробелы */
+  font-family: monospace;
+  /* Используем моноширинный шрифт */
+  margin: 0;
+  /* Убираем отступы <pre> по умолчанию */
+}
